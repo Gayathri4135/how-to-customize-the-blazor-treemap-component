@@ -53,7 +53,7 @@ dotnet run
 
 - For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
 - To report an issue specific to this sample, open a GitHub issue in this repository.
-- For implementation details, see the https://help.syncfusion.com/chart-sdk/blazor/treemap/getting-started-webapp.
+- For implementation details, see the [relevant official Syncfusion documentation](https://help.syncfusion.com/chart-sdk/blazor/treemap/getting-started-webapp).
 
 ## License
 
