@@ -1,22 +1,60 @@
 # How to Customize the Blazor TreeMap Component
 
-A quick start Blazor project that shows how to customize the layout, data labels, and levels of the Blazor TreeMap component. It includes a code snippet for displaying the tree map items as levels in a group. 
- 
-Refer to the following documentation to learn about the Blazor TreeMap component: 
-https://blazor.syncfusion.com/documentation/treemap/layout
-https://blazor.syncfusion.com/documentation/treemap/leaf-item
-https://blazor.syncfusion.com/documentation/treemap/levels
-https://blazor.syncfusion.com/documentation/treemap/labels
+## Overview
 
-Check out this online example of the Blazor TreeMap Component:
-https://blazor.syncfusion.com/demos/treemap/layout?theme=fluent
-https://blazor.syncfusion.com/demos/treemap/label?theme=fluent
+This sample demonstrates how to customize the Syncfusion [Blazor TreeMap](https://www.syncfusion.com/blazor-components/blazor-treemap) component to visualize hierarchical employee data. The application configures custom rendering direction, formatted labels, hierarchical grouping levels, and styled group headers to improve data presentation. It showcases how TreeMap levels can be used to organize and display grouped information while maintaining a clear visual hierarchy.
 
-Watch the following video to get started with a Blazor Web Assembly app and add Syncfusion Blazor components to it:
-https://www.youtube.com/watch?v=zKU580cOqjg
+## Key Features
 
-## Project prerequisites
-Make sure that you have the compatible versions of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/ ) and [.NET Core SDK 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) or later version in your machine before starting to work on this project.
+- Uses the `SfTreeMap` component to visualize employee data based on `EmployeeCount`.
+- Configures custom item rendering with `RenderDirection="TopRightBottomLeft"`.
+- Displays formatted labels using `LabelPath` and `LabelFormat`.
+- Supports word-wrapped labels with `InterSectAction="WrapByWord"`.
+- Customizes leaf item appearance using borders, colors, spacing, and label styles.
+- Groups data hierarchically by `Country`, `JobDescription`, and `EmployeeCount` using `TreeMapLevel`.
+- Customizes group headers with `HeaderFormat`, `HeaderAlignment`, and `HeaderHeight`.
+- Binds data from a strongly typed `List<Employee>` collection.
 
-## How to run this application
-To run this application, you need to first clone the `how-to-customize-the-blazor-treemap-component` repository and then open it in Visual Studio 2022. Now, simply build and run your project to view the output.
+## Prerequisites
+
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/)
+- [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet) compatible with the project's target framework
+
+## How to Run the Project
+
+**Visual Studio 2022**
+
+1. Clone this repository.
+2. Open the repository folder in Visual Studio 2022.
+3. Restore NuGet packages.
+4. Set the Blazor WebAssembly project as the startup project if required.
+5. Build the project.
+6. Run the application using **Ctrl+F5**.
+
+**Visual Studio Code**
+
+1. Clone this repository.
+2. Open the repository folder in Visual Studio Code.
+3. Open the integrated terminal.
+4. Navigate to the project directory.
+
+```bash
+dotnet restore
+dotnet run
+```
+
+5. Open the local application URL displayed in the terminal after the application starts.
+
+## Project Structure
+
+- `Pages/Index.razor` — Main sample page containing TreeMap configuration, level definitions, data model, and sample employee data.
+
+## Support and Feedback
+
+- For general product questions, visit the [Syncfusion Community Forum](https://www.syncfusion.com/forums) or [Syncfusion Support](https://www.syncfusion.com/support).
+- To report an issue specific to this sample, open a GitHub issue in this repository.
+- For implementation details, see the https://help.syncfusion.com/chart-sdk/blazor/treemap/getting-started-webapp.
+
+## License
+
+This is a Syncfusion sample project provided to demonstrate product usage. Review the [Syncfusion license terms](https://www.syncfusion.com/sales/pricing?category=ui-components) before using Syncfusion components in your own applications.
