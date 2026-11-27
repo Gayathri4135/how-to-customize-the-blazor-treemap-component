@@ -33,21 +33,27 @@ This sample demonstrates how to customize the Syncfusion [Blazor TreeMap](https:
 
 **Visual Studio Code**
 
-1. Clone this repository.
-2. Open the repository folder in Visual Studio Code.
-3. Open the integrated terminal.
-4. Navigate to the project directory.
+1. Open the repository folder in Visual Studio Code.
+2. Open the integrated terminal.
+3. Navigate to the `BlazorApp_TreeMap` project directory.
+
+```bash
+cd BlazorApp_TreeMap
+```
+4. Restore project dependencies:
 
 ```bash
 dotnet restore
+```
+
+5. Run the application:
+
+```bash
 dotnet run
 ```
 
-5. Open the local application URL displayed in the terminal after the application starts.
+6. Open the URL displayed in the terminal after the application starts.
 
-## Project Structure
-
-- `Pages/Index.razor` — Main sample page containing TreeMap configuration, level definitions, data model, and sample employee data.
 
 ## Support and Feedback
 
