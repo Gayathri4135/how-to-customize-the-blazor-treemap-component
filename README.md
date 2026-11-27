@@ -27,7 +27,7 @@ This sample demonstrates how to customize the Syncfusion [Blazor TreeMap](https:
 1. Clone this repository.
 2. Open the repository folder in Visual Studio 2022.
 3. Restore NuGet packages.
-4. Set the Blazor WebAssembly project as the startup project if required.
+4. Set the Blazor project as the startup project if required.
 5. Build the project.
 6. Run the application using **Ctrl+F5**.
 
@@ -40,6 +40,7 @@ This sample demonstrates how to customize the Syncfusion [Blazor TreeMap](https:
 ```bash
 cd BlazorApp_TreeMap
 ```
+
 4. Restore project dependencies:
 
 ```bash
@@ -53,7 +54,6 @@ dotnet run
 ```
 
 6. Open the URL displayed in the terminal after the application starts.
-
 
 ## Support and Feedback
 
